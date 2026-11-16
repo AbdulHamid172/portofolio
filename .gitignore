@@ -50,3 +50,9 @@ ehthumbs.db
 *.rar
 *.7z
 assets/images/profile/*
+
+# === User-uploaded content (NOT for source control) ===
+assets/images/profile/*
+assets/images/projects/*
+!assets/images/profile/.gitkeep
+!assets/images/projects/.gitkeep
