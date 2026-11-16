@@ -1,2 +1,52 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Config with credentials
 config/db.php
 .env
+.env.*
+*.env
+config.local.php
+
+# Database dumps (all except safe schema)
+db/*.sql
+db/*.sql.bak
+db/*dump*
+db/backups/
+!db/schema.sql
+
+# Debug / dev files
+admin/debug-*.php
+admin/test-*.php
+*.log
+*.log.*
+error_log
+debug.log
+
+# Uploads cache
+uploads/tmp/
+uploads/cache/
+assets/images/tmp/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+assets/images/profile/*
